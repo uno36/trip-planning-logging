@@ -3,11 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+settings
+
 # Virtual environment
 venv/
 env/
-*.env
+*.envir
 *.venv
+*.env
+myenv
 
 # Django-specific
 db.sqlite3
@@ -56,3 +60,4 @@ pip-log.txt
 pip-delete-this-directory.txt
 poetry.lock
 
+.qodo

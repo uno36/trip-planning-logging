@@ -1,0 +1,50 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Local environment variables
+.env
+.env.*
+
+# Django-specific files
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+settings_local.py
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Coverage & testing
+htmlcov/
+.coverage
+.pytest_cache/
+nose2-junit.xml
+junit.xml
+
+# System & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Git & Docker files
+.git/
+.gitignore
+.dockerignore
+
